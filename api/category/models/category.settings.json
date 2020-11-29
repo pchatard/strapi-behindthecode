@@ -21,8 +21,8 @@
       "via": "category"
     },
     "articles": {
-      "collection": "article",
-      "via": "category"
+      "via": "category",
+      "collection": "article"
     },
     "description": {
       "type": "text",

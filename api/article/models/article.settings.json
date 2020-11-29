@@ -36,11 +36,16 @@
       "via": "articles"
     },
     "category": {
-      "via": "articles",
-      "model": "category"
+      "model": "category",
+      "via": "articles"
     },
     "preview": {
       "type": "text",
+      "required": true
+    },
+    "public": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }
